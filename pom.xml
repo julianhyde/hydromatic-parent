@@ -4,7 +4,7 @@
   <!-- The basics. -->
   <groupId>net.hydromatic</groupId>
   <artifactId>parent</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
   <packaging>pom</packaging>
 
   <!-- More project information. -->
@@ -74,16 +74,16 @@
     <connection>scm:git:git://github.com/julianhyde/hydromatic-parent.git</connection>
     <developerConnection>scm:git:git@github.com:julianhyde/hydromatic-parent.git</developerConnection>
     <url>http://github.com/julianhyde/hydromatic-parent/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>parent-0.1</tag>
   </scm>
 
   <prerequisites><!-- just for information: not inherited in child poms -->
     <maven>3.2.1</maven><!-- prerequisite of some plugins -->
   </prerequisites>
 
-  <repositories/>
+  <repositories />
 
-  <dependencies/>
+  <dependencies />
 
   <build>
     <pluginManagement>
